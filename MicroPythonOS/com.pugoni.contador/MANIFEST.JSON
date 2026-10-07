@@ -1,0 +1,23 @@
+{
+  "name": "Contador de Cliques",
+  "publisher": "Artur",
+  "short_description": "Botão que conta cliques",
+  "long_description": "App simples com um botão que conta quantas vezes foi clicado.",
+  "fullname": "com.pugoni.contador",
+  "version": "0.0.1",
+  "categories": [
+    "Development"
+  ],
+  "activities": [
+    {
+      "entrypoint": "contador.py",
+      "classname": "contador",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
